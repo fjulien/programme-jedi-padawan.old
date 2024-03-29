@@ -1,4 +1,4 @@
-use crate::components::counter_btn::Button;
+use crate::components::navigation::Navigation;
 use leptos::*;
 
 /// Default Home Page
@@ -23,15 +23,9 @@ pub fn Home() -> impl IntoView {
                 </ul>
             }
         }>
-
+            <Navigation/>
             <div class="container">
                 <h1 class="text-2xl text-lime-500">"Programme Jedi Padawan"</h1>
-
-                <div class="buttons">
-                    <Button/>
-                    <Button increment=5/>
-                </div>
-
             </div>
         </ErrorBoundary>
     }

@@ -17,10 +17,9 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
-        <Html lang="fr" dir="ltr" attr:data-theme="light"/>
+        <Html lang="fr" dir="ltr" attr:data-theme="dark"/>
         <Stylesheet id="leptos" href="/styles/output.css"/>
-        // sets the document title
-        <Title text="Welcome to Leptos CSR"/>
+        <Title text="Programme Jedi Padawan"/>
 
         // injects metadata in the <head> of the page
         <Meta charset="UTF-8"/>
