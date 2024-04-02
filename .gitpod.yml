@@ -6,6 +6,6 @@
 
 tasks:
   - init: cargo build
-    command: cargo watch -x run
+    command: rustup target add wasm32-unknown-unknown && cargo watch -x run
 
 
