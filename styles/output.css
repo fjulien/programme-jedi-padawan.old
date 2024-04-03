@@ -614,10 +614,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -758,11 +754,6 @@ video {
 
 .capitalize {
   text-transform: capitalize;
-}
-
-.text-lime-500 {
-  --tw-text-opacity: 1;
-  color: rgb(132 204 22 / var(--tw-text-opacity));
 }
 
 .text-white {
