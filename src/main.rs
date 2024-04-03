@@ -1,5 +1,10 @@
 use leptos::*;
 use programme_jedi_padawan::App;
+use crate::components::navigation::Navigation;
+
+// Modules
+pub mod components;
+
 
 fn main() {
     // set up logging
@@ -7,8 +12,12 @@ fn main() {
     console_error_panic_hook::set_once();
 
     mount_to_body(|| {
+        
         view! {
-            <App />
+            <Navigation/>
+            <section class="mt-20 container mx-auto">
+            <App  />
+            </section>
         }
     })
 }

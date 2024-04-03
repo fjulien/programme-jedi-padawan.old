@@ -7,10 +7,9 @@ pub fn Navigation() -> impl IntoView {
     let links = vec!["chronologie", "objectifs", ];
 
     view! {
-    <nav on:mouseleave=move |_| {
+    <nav class="bg-gray-800 fixed w-full top-0 left-0" on:mouseleave=move |_| {
       if is_open() { set_is_open.update(|n| *n = !*n) };
-      }
-      class="bg-gray-800 ">
+      }>
       <div class="flex items-center justify-between p-3">
         <div class="text-2xl text-white center"><a href="">"PJP"</a></div>
         <button on:click=move |_| {

@@ -588,13 +588,34 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .flex {
@@ -617,6 +638,10 @@ video {
   height: 50px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-7 {
   width: 1.75rem;
 }
@@ -627,6 +652,14 @@ video {
 
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .origin-center {
