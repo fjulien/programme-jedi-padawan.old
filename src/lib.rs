@@ -34,7 +34,6 @@ pub fn App() -> impl IntoView {
             }
         }>
             <Html lang="fr" dir="ltr" attr:data-theme="dark"/>
-            <Stylesheet id="leptos" href="/styles/output.css"/>
             <Title text="Programme Jedi Padawan"/>
 
             // injects metadata in the <head> of the page
