@@ -11,4 +11,5 @@ module.exports = {
       enabled: true,
       content: ["./src/**/*.html"],
     },
+    mode: "jit",
   }
