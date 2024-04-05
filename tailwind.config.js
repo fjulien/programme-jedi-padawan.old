@@ -4,7 +4,13 @@ module.exports = {
       files: ["*.html", "./src/**/*.rs"],
     },
     theme: {
-      extend: {},
+      theme: {
+        extend: {
+          fontFamily: {
+            montserrat: ["Montserrat", "sans-serif"]
+          },
+        },
+      },
     },
     plugins: [],
     purge: {

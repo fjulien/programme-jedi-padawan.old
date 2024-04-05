@@ -33,3 +33,5 @@ panic = "abort"
 
 [features]
 leptos_image = []
+
+# https://github.com/iamvasanth07/portfolio-leptos/blob/7b4f0f0a5a69ffccccd5e82422bd6ad4c0e378f0/Cargo.toml#L59

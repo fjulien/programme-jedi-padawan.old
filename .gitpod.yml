@@ -13,3 +13,7 @@ ports:
       onOpen: open-browser
       visibility: public
 
+vscode:
+  extensions:
+    - rust-lang.rust-analyzer@0.3.1348
+
