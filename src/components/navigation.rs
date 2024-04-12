@@ -1,10 +1,10 @@
 use leptos::*;
-use crate::components::navigation_link::Navigation_link;
+use crate::components::navigation_link::NavigationLink;
 
 #[component]
-pub fn Navigation() -> impl IntoView {
+pub fn navigation() -> impl IntoView {
     let (is_open, set_is_open) = create_signal(false);
-    let links = vec!["chronologie", "objectifs", ];
+    let links = ["chronologie", "objectifs"];
 
     view! {
     <nav class="bg-gray-800 fixed w-full top-0 left-0" on:mouseleave=move |_| {
@@ -27,7 +27,7 @@ pub fn Navigation() -> impl IntoView {
       </div>
       <ul class=("hidden", move || !is_open()) class="text-center text-xl text-white py-4">
       {links.into_iter()
-        .map(|link| view! { <Navigation_link link=link.to_string() />})
+        .map(|link| view! { <NavigationLink link=link.to_string() />})
         .collect::<Vec<_>>()}        
       </ul>
     </nav>

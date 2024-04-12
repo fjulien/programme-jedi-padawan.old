@@ -15,9 +15,9 @@ fn main() {
         
         view! {
             <Navigation/>
-            <section style="margin-top:74px" class="container mx-auto">
-            <App  />
-            </section>
+            <main class="mt-[74px]">
+                <App  />
+            </main>
         }
     })
 }

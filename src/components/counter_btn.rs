@@ -2,7 +2,7 @@ use leptos::*;
 
 /// A parameterized incrementing button
 #[component]
-pub fn Button(#[prop(default = 1)] increment: i32) -> impl IntoView {
+pub fn button(#[prop(default = 1)] increment: i32) -> impl IntoView {
     let (count, set_count) = create_signal(0);
     view! {
         <button

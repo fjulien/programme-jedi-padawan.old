@@ -1,0 +1,4 @@
+.test {
+  background-image: url("https://raw.githubusercontent.com/fjulien/programme-jedi-padawan/main/public/images/entrainement-padawan-2.jpg");
+  height: clac(100vh - 74px)
+}
