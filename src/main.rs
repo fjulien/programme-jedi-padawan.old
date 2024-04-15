@@ -14,10 +14,7 @@ fn main() {
     mount_to_body(|| {
         
         view! {
-            <Navigation/>
-            <main class="mt-[74px]">
-                <App  />
-            </main>
+            <App  />
         }
     })
 }
