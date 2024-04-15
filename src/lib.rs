@@ -43,7 +43,7 @@ pub fn App() -> impl IntoView {
                     <main class="mt-[74px]">
                         <Routes>
                             <Route path="/" view=Home/>
-                            <Route path="/*" fallback=|| view! { NotFound }/>
+                            <Route path="/*" view=|| view! { NotFound }/>
                         </Routes>
                     </main>
                 </Router>
