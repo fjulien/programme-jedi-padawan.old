@@ -42,7 +42,7 @@ pub fn App() -> impl IntoView {
                 <Navigation/>
                     <main class="mt-[74px]">
                         <Routes>
-                            <Route path="" view=Home/>
+                            <Route path="/" view=Home/>
                             <Route path="/*" view=NotFound/>
                         </Routes>
                     </main>
