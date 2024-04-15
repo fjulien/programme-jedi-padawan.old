@@ -1,6 +1,5 @@
 use leptos::*;
 use programme_jedi_padawan::App;
-use crate::components::navigation::Navigation;
 
 // Modules
 pub mod components;
