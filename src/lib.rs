@@ -40,7 +40,7 @@ pub fn App() -> impl IntoView {
 
                 <Router>
                     <Routes>
-                        <Route path="/" view=Home/>
+                        <Route path="/programme-jedi-padawan" view=Home/>
                         <Route path="/*" view=NotFound/>
                     </Routes>
                 </Router>
