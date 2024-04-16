@@ -22,10 +22,10 @@ pub fn App() -> impl IntoView {
             // injects metadata in the <head> of the page
             <Meta charset="UTF-8"/>
             <Meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <Router>
+            <Router base="programme-jedi-padawan">
             <Navigation/>
                 <main class="mt-[74px]">
-                    <Routes base="programme-jedi-padawan">
+                    <Routes>
                         <Route path="/" view=Home/>
                         <Route path="/*" view=Home/>
                     </Routes>
