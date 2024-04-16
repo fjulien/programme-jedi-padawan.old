@@ -25,9 +25,9 @@ pub fn App() -> impl IntoView {
             <Router>
             <Navigation/>
                 <main class="mt-[74px]">
-                    <Routes>
+                    <Routes base="programme-jedi-padawan">
                         <Route path="/" view=Home/>
-                        <Route path="/*" view=NotFound/>
+                        <Route path="/*" view=Home/>
                     </Routes>
                 </main>
             </Router>
