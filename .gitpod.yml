@@ -1,7 +1,7 @@
 tasks:
     - name: run front-end
       openMode: split-left
-      init: yarn install
+      init: cargo install trunk
       command: |
           rustup target add wasm32-unknown-unknown
           trunk serve --port 3000
