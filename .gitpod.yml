@@ -1,8 +1,7 @@
-image: gitpod/workspace-rust
-
 tasks:
     - name: run front-end
       openMode: split-left
+      init: yarn install
       command: |
           rustup target add wasm32-unknown-unknown
           trunk serve --port 3000
