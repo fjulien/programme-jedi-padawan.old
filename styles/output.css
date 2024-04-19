@@ -643,10 +643,6 @@ video {
   height: 50px;
 }
 
-.h-\[calc\(100vh-74px\)\] {
-  height: calc(100vh - 74px);
-}
-
 .w-3 {
   width: 0.75rem;
 }
@@ -771,14 +767,6 @@ video {
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .p-3 {
