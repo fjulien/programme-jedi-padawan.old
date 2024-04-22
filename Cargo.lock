@@ -731,6 +731,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "leptos_image"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "25bf9f00f07f30ee381c235b61f6465e8577a159455cb49ddc9af5aa496adfe6"
+dependencies = [
+ "base64",
+ "leptos",
+ "leptos_meta",
+ "leptos_router",
+ "serde",
+ "serde_qs",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "leptos_macro"
 version = "0.6.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1082,6 +1097,7 @@ dependencies = [
  "console_log",
  "gloo-net 0.2.6",
  "leptos",
+ "leptos_image",
  "leptos_meta",
  "leptos_router",
  "log",
